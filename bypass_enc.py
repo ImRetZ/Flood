@@ -1,5 +1,3 @@
-
-
 # Code By RetZ
 # Udp\Tcp Tools
 # python3 bypass.py ip port
